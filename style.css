@@ -10,6 +10,8 @@
     font-family: 'Oxanium', sans-serif;
 }
 
+/* navigator */
+
 .nav{
     width: 100%;
     background-color: rgba(0, 0, 2, 1);
@@ -44,6 +46,10 @@
     font-family: 'Oxanium', sans-serif;
 }
 
+.meniu a:first-child{
+    font-weight: 700;
+}
+
 .line{
     width: 1px;
     height: 17px;
@@ -61,9 +67,60 @@
     color: white;
 }
 
+/* bg-hero  */
+
 .bg img{
     position: absolute;
-    
+    z-index: -10;
+}
+
+.ht1 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.ht1 h1{
+ color: rgba(254, 209, 38, 1);
+}
+
+.ht1 p{
+    color: rgba(117, 117, 117, 1);
+}
+
+.ht1 button{
+border: 1px solid white;
+color: white;
+background-color: transparent;
+padding: 5px 10px;
+border-radius: 10px;
+}
+
+.ht2 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.ht2 h1{
+ color: rgba(254, 209, 38, 1);
+}
+
+.ht2 p{
+    color: rgba(117, 117, 117, 1);
+    text-align: end;
+}
+
+.ht2 button{
+border: 1px solid white;
+color: white;
+background-color: transparent;
+padding: 5px 10px;
+border-radius: 10px;
 }
 
 

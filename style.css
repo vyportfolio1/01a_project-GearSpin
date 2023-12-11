@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+
+.oxa{
+    font-family: 'Oxanium', sans-serif;
+}
+
+.nav{
+    width: 100%;
+    background-color: rgba(0, 0, 2, 1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgba(254, 209, 38, 1);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.logo a span{
+    color: white;
+    font-weight: 300;
+}
+
+.meniu{
+    display: flex;
+    gap: 10px;
+    display: none;
+}
+
+.meniu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(148, 148, 148, 1);
+    font-family: 'Oxanium', sans-serif;
+}
+
+.line{
+    width: 1px;
+    height: 17px;
+    background-color: rgba(148, 148, 148, 1);
+}
+
+.socials{
+    display: flex;
+    color: white;
+    gap: 25px;
+    display: none;
+}
+
+.secret-meniu{
+    color: white;
+}
+
+.bg img{
+    position: absolute;
+    
+}
+
+
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .meniu{
+        display: flex;
+    }
+    .socials{
+        display: flex;
+    }
+
+    .secret-meniu{
+        display: none;
+    }
+  }
+
+  @media only screen and (min-width: 1280px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only screen and (min-width: 1536px) {
+    body {
+      background-color: lightblue;
+    }
+  }

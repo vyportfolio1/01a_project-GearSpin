@@ -170,6 +170,11 @@ border-radius: 10px;
     text-align: center;
 }
 
+.insp p{
+    color: rgba(148, 148, 148, 1);
+    font-family: 'Oxanium', sans-serif;
+}
+
 
 /* <!-- top3 --> */
 
@@ -201,7 +206,7 @@ font-family: 'Oxanium', sans-serif;
 }
 
 .bike img{
-    width: 350px;
+    width: 330px;
 }
 
 .bike button{
@@ -217,7 +222,222 @@ font-family: 'Oxanium', sans-serif;
 
 .trend{
     background-color: black;
+    padding: 20px;
+    margin-top: 40px;
 }
+
+.trend-text h1{
+    color: white;
+    text-transform: uppercase;
+    color: rgba(254, 209, 38, 1);
+}
+
+.trend-text p{
+    color: rgba(148, 148, 148, 1);
+    margin-bottom: 10px;
+}
+
+.but1 {
+    border: 1px solid black;
+    color: black;
+    background-color: rgba(254, 209, 38, 1);
+    padding: 5px 10px;
+    border-radius: 10px;
+    }
+
+    .but2 {
+        border: 1px solid black;
+        color: black;
+        background-color: white;
+        padding: 5px 10px;
+        border-radius: 10px;
+        }
+
+.fa-bolt{
+    color: rgba(254, 209, 38, 1); 
+    font-size: 25px;
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.part-two img{
+    width: 300px;
+}
+.trending-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.trending-img img{
+    width: 300px;
+}
+
+/* <!-- modern soliution  --> */
+
+.modern{
+    background-color: white;
+    padding: 0 20px;
+}
+
+.modern-tite{
+    font-family: 'Oxanium', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.mod3{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.mod3 img{
+    width: 300px;
+}
+
+.m1{
+    text-align: end;
+}
+
+.m1 h2{
+    text-transform: uppercase;
+}
+
+.m2{
+    text-align: start;
+}
+
+.m2 h2{
+    text-transform: uppercase;
+}
+
+/* <!-- features --> */
+
+.feat{
+    background-color: rgba(17, 17, 17, 1);
+}
+
+.fiat-title{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.fiat-title1{
+    font-family: 'Oxanium', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: rgba(254, 209, 38, 1);
+}
+
+.feat p{
+    color: rgba(148, 148, 148, 1);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.allfiat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 10px;
+}
+
+.feat01{
+    background-color: black;
+}
+
+.feat01 img{
+    width: 300px;
+}
+
+.feat01 h1{
+    color: rgba(254, 209, 38, 1);
+    padding-left: 10px;
+}
+
+.feat01 p{
+    padding: 10px 20px;
+    text-align: start;
+}
+
+
+.feat02{
+    background-color: rgba(254, 209, 38, 1);
+}
+
+.feat02 img{
+    width: 300px;
+}
+
+.feat02 h1{
+    color: black;
+    padding-right: 10px;
+    text-align: end;
+}
+
+.feat02 p{
+    padding: 10px 20px;
+    text-align: end;
+    color: white;
+}
+
+.navi img{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.navi h1{
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Oxanium', sans-serif;
+}
+
+.navi p{
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+.navi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+    background: url('/img/gps\ 1.png') center/cover no-repeat;
+    z-index: -10;  
+    overflow-x: hidden;
+    filter: brightness(90%)
+}
+
+ .prod01{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+ }
+
+ .prod01 img{
+    width: 300px;
+ }
+
+
 
 @media only screen and (min-width: 600px) {
     body {

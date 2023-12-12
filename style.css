@@ -19,6 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+     
 }
 
 .logo a{
@@ -69,13 +70,27 @@
 
 /* bg-hero  */
 
-.bg img{
+.hero-text{
+    position: relative;
+}
+
+.bg {
     position: absolute;
-    z-index: -10;
+    width: 100%;
+    height: 100vh;
+    background: url('/img/bike1\ 1.png') center/cover no-repeat;
+    z-index: -10;  
+    overflow-x: hidden;
+    filter: brightness(40%)
+}
+
+.hero-text{
+    padding: 70px 20px;
+
 }
 
 .ht1 {
-    width: 400px;
+    max-width: 550px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -83,11 +98,12 @@
 }
 
 .ht1 h1{
- color: rgba(254, 209, 38, 1);
+ color: white;
+ text-transform: uppercase;
 }
 
 .ht1 p{
-    color: rgba(117, 117, 117, 1);
+    color: white;
 }
 
 .ht1 button{
@@ -99,19 +115,21 @@ border-radius: 10px;
 }
 
 .ht2 {
-    width: 400px;
+    max-width: 550px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: flex-end;
+    margin-top: 80px;
 }
 
 .ht2 h1{
- color: rgba(254, 209, 38, 1);
+ color: white;
+ text-transform: uppercase;
 }
 
 .ht2 p{
-    color: rgba(117, 117, 117, 1);
+    color: white;
     text-align: end;
 }
 
@@ -123,10 +141,83 @@ padding: 5px 10px;
 border-radius: 10px;
 }
 
-.main-text h1{
-    color: white;
+.main-text{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    text-transform: uppercase;
 }
 
+.main-text h1{
+    color: rgba(254, 209, 38, 1);
+    font-weight: 700;
+    font-family: 'Oxanium', sans-serif;
+}
+.main-text span {
+    color: white;
+    font-weight: 300;
+    font-family: 'Oxanium', sans-serif;
+}
+
+.insp{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* <!-- top3 --> */
+
+.title1 h1{
+text-transform: uppercase;
+font-family: 'Oxanium', sans-serif;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 40px;
+}
+
+.bikes{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.bike{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.bike p{
+font-size: 30px;
+font-family: 'Oxanium', sans-serif;
+}
+
+.bike img{
+    width: 350px;
+}
+
+.bike button{
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* <!-- Trends --> */
+
+.trend{
+    background-color: black;
+}
 
 @media only screen and (min-width: 600px) {
     body {

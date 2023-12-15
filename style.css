@@ -81,7 +81,8 @@
     background: url('/img/bike1\ 1.png') center/cover no-repeat;
     z-index: -10;  
     overflow-x: hidden;
-    filter: brightness(40%)
+    filter: brightness(40%);
+    background-color: black;
 }
 
 .hero-text{
@@ -473,6 +474,42 @@ font-family: 'Oxanium', sans-serif;
         gap: 30px;
         justify-content: center;
     }
+
+    .filter{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .trending-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .trending-img img:first-child{
+        width: 405px;
+    }
+
+    .mod3{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+    .modern-tite{
+        font-size: 65px;
+    }
+    .allfiat{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
  
   }
 
@@ -511,7 +548,37 @@ font-family: 'Oxanium', sans-serif;
         justify-content: space-between;
     }
    
+    .part-one{
+        width: 625px;
+    }
+    .trend-text h1{
+        margin-bottom: 50px;
+    }
 
+    .buttons{
+        display: flex;
+        gap: 15px;
+    }
+    .trending-img img:first-child{
+        width: 640px;
+    }
+    
+    .m1{
+        width: 300px;
+    }
+    .m1 h2{
+        font-size: 32px;
+    }
+
+    .m2{
+        width: 300px;
+    }
+    .m2 h2{
+        font-size: 32px;
+    }
+    .mod3{
+        justify-content: center;
+    }
 
     
   }
@@ -554,6 +621,42 @@ font-family: 'Oxanium', sans-serif;
     .bikes{
        gap: 72px;     
     }
+
+    .part-two img{
+        width:365px;
+    }
+
+    .trending-img img:first-child{
+        width: 737px;
+    }
+
+    .mod3 img{
+        width: 490px;
+    }
+
+    .modern-tite{
+        font-size: 130px;
+        line-height: 100px;
+        width: 728px;
+        
+    }
+
+    .modern{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mod3{
+        margin-top: -141px;
+    }
+
+    .m1{
+        margin-top: 45px;
+    }
+    .m2{
+        margin-top: 45px;
+    }
   }
 
   @media only screen and (min-width: 1536px) {
@@ -569,4 +672,12 @@ font-family: 'Oxanium', sans-serif;
     .bikes{
         gap: 100px;     
      }
+
+     .filter{
+        gap:153px;
+     }
+
+    .trending-img{
+        gap:80px;
+    }
   }

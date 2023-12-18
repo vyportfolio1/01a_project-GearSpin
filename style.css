@@ -429,15 +429,99 @@ font-family: 'Oxanium', sans-serif;
     filter: brightness(90%)
 }
 
- .prod01{
-    width: 400px;
-    height: 600px;
-    background-color: white;
+ /* <!-- accessories --> */
+
+ .acc{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
  }
 
- .prod01 img{
+ .acc h1{
+    color: white;
+    font-family: 'Oxanium', sans-serif;
+    text-transform: uppercase;
+ }
+
+ 
+.prod01{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 320px;
+    height: 600px;
+    background-color: white;
+}
+.prod01 img{
     width: 300px;
  }
+
+.prod01 p{
+    color: black;
+    font-weight: 700;
+    font-size: 26px;
+
+}
+
+.prod02{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 322px;
+    height: 285px;
+    background-color: white;
+}
+.prod02 img{
+    width: 300px;
+ }
+
+.prod02 p{
+    color: black;
+    font-weight: 700;
+    font-size: 26px;
+
+}
+
+.access{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.read button{
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+    }
+
+.read{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.hid{
+    display: none;
+}
+
+/* <!-- footer --> */
+
+.allfooter{
+    background-color: black;
+    padding: 20px;
+}
+
+.search p{
+    color: rgba(148, 148, 148, 1);
+}
+
 
 
 
@@ -510,6 +594,24 @@ font-family: 'Oxanium', sans-serif;
         justify-content: center;
     }
 
+    .access{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .prod-small{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .prod-small{
+        width: 319px;
+    }
+   
+
  
   }
 
@@ -579,6 +681,15 @@ font-family: 'Oxanium', sans-serif;
     .mod3{
         justify-content: center;
     }
+
+    .hid{
+        display: flex;
+    }
+    .prod-small{
+        width: 668px;
+    }
+
+  
 
     
   }
@@ -657,6 +768,42 @@ font-family: 'Oxanium', sans-serif;
     .m2{
         margin-top: 45px;
     }
+
+    .feat p{
+        width: 100%;
+        max-width: 707px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .feat01{
+        width: 600px;
+        height: 700px;
+    }
+
+    .feat02{
+        width: 600px;
+        height: 700px;
+    }
+
+    .feat02 img{
+        width: 600px;
+        margin-top: 40px;
+    }
+
+    .feat01 img{
+        width: 600px;
+    }
+
+    .allfiat{
+        margin-top: 40px;
+    }
+
+    .navi{
+        height: 44vh;
+    }
+
+  
   }
 
   @media only screen and (min-width: 1536px) {
@@ -679,5 +826,9 @@ font-family: 'Oxanium', sans-serif;
 
     .trending-img{
         gap:80px;
+    }
+
+    .allfiat{
+        gap: 20px;
     }
   }

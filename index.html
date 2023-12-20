@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>01a_project-GearSpin</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;700&family=Poppins:wght@300;700&display=swap" rel="stylesheet">
@@ -15,34 +16,74 @@
     <!-- navigator -->
     
     <div class="nav">
-        <div class="logo">
+        <div data-aos="fade-right" data-aos-duration="3000" class="logo">
             <a href="#">Gear<span>Spin</span></a>
         </div>
         
         <div class="meniu">
-            <a href="#">home</a>
+            <div data-aos="fade-down" data-aos-duration="900" data-aos-easing="linear">
+                <a class="h" href="#">home</a>
+            </div>
             <div class="line"></div>
-            <a href="#">Top3</a>
+
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear">
+                <a href="#">Top3</a>
+            </div>
             <div class="line"></div>
-            <a href="#">trends</a>
+
+            <div data-aos="fade-down" data-aos-duration="1100" data-aos-easing="linear">
+                 <a href="#">trends</a>
+             </div>
             <div class="line"></div>
-            <a href="#">features</a>
+
+            <div data-aos="fade-down" data-aos-duration="1200" data-aos-easing="linear">
+                <a href="#">features</a>
+            </div>
             <div class="line"></div>
-            <a href="#">accessories</a>
+
+            <div data-aos="fade-down" data-aos-duration="1300" data-aos-easing="linear">
+                <a href="#">accessories</a>
+            </div>
             <div class="line"></div>
+            <div data-aos="fade-down" data-aos-duration="1400" data-aos-easing="linear">
             <a href="#">contact</a>
+             </div>
         </div>
 
         <div class="socials">
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-x-twitter"></i>
+            <div data-aos="fade-down" data-aos-duration="1500" data-aos-easing="linear">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div data-aos="fade-down" data-aos-duration="1600" data-aos-easing="linear">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+            <div data-aos="fade-down" data-aos-duration="1700" data-aos-easing="linear">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+            <div data-aos="fade-down" data-aos-duration="1800" data-aos-easing="linear">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
         </div>
 
         <div class="secret-meniu">
             <i class="fa-solid fa-bars-staggered"></i>
         </div>
+    </div>
+
+    
+    <div class="burger-meniu visible">
+        <a href="#">home</a>
+        <div class="line1"></div>
+        <a href="#">Top3</a>
+        <div class="line1"></div>
+        <a href="#">trends</a>
+        <div class="line1"></div>
+        <a href="#">features</a>
+        <div class="line1"></div>
+        <a href="#">accessories</a>
+        <div class="line1"></div>
+        <a href="#">contact</a>
+        <i class="fa-regular fa-rectangle-xmark"></i>
     </div>
 
    <!-- bg-hero -->
@@ -51,20 +92,20 @@
          
     
     <div class="hero-text">
-        <div class="ht1">
+        <div class="ht1" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="1800">
             <h1>Latest news</h1>
             <p>Stay in the saddle with our 'Latest News.' Explore cutting-edge gear, thrilling trails, and cycling adventures firsthand</p>
-            <button>Read more</button>
+            <a href="#"><button>Read more</button></a>
         </div>
 
-        <div class="ht2">
+        <div class="ht2" data-aos="fade-left" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="1800">
             <h1>Bike Bliss</h1>
             <p>Dive into the joyous world of cycling with us—a space where every ride unveils new adventures and possibilities</p>
-            <button>Read more</button>
+            <a href="#"><button>Read more</button></a>
         </div>
 
     </div>
-    <div class="main-text">
+    <div class="main-text" data-aos="zoom-out-up" data-aos-duration="2500" data-aos-easing="linear">
         <h1>Gear<span>Spin</span></h1>
     </div>
 
@@ -78,11 +119,11 @@
    </div>
 
    <!-- top3 -->
-   <div class="title1">
+   <div class="title1" data-aos="fade-up" data-aos-duration="900" data-aos-easing="linear">
     <h1>top 3 this week choices</h1>
    </div>
 
-<div class="bikes">
+<div class="bikes" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear">
 
 </div>
 
@@ -91,13 +132,13 @@
 <div class="trend">
     <div class="filter">
         <div class="part-one">
-            <div class="trend-text">
+            <div class="trend-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="900">
                 <h1>Pedal Pulse: Unearth the Hottest Trends</h1>
                 <p>Experience the thrill of the cycling zeitgeist with 'Pedal Pulse.' Dive into trending gear, trail discoveries, and community rides. Stay ahead and ride in style with the hottest trends in cycling!</p>
                 <p>Discover the evolving landscape of biking culture as 'Pedal Pulse' brings you stories of pioneering events, eco-conscious initiatives, and the individuals shaping the cycling realm. Join the movement, where every revolution of the wheel contributes to an ever-growing cycling narrative.</p>
                 <div class="buttons">
-                    <button class="but1">Read More</button>
-                    <button class="but2">Watch Video</button>
+                    <a href="#"><button class="but1">Read More</button></a>
+                    <a href="#"><button class="but2">Watch Video</button></a>
                     <i class="fa-solid fa-bolt"></i>
                     <i class="fa-solid fa-bolt"></i>
                     <i class="fa-solid fa-bolt"></i>
@@ -105,17 +146,17 @@
             </div>
         </div>
     
-        <div class="part-two">
+        <div class="part-two" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="900">
             <img src="img/trending1.png" alt="bike">
         </div>
     </div>
 
-    <div class="trending-img">
+    <div class="trending-img" data-aos="fade-up" data-aos-duration="900">
         <img src="img/trending2.png" alt="bike">
         <img src="img/trending3.png" alt="bike">
     </div>
 
-
+ 
 </div>
 
 <!-- modern soliution  -->
@@ -123,12 +164,12 @@
     <h1 class="modern-tite">Modern solutions</h1>
 
 <div class="mod3">
-    <div class="m1">
+    <div class="m1" data-aos="zoom-out" data-aos-duration="900">
         <h2>Urban Cycling</h2>
         <p>Elevate your ride with modern solutions designed for urban cyclists seeking style, efficiency, and innovation</p>
     </div>
     <img src="img/rem 1.png" alt="bike">
-    <div class="m2">
+    <div class="m2" data-aos="zoom-out" data-aos-duration="900">
         <h2>Sleek Innovations</h2>
         <p>Explore sleek innovations that redefine cycling, offering modern solutions for a connected and stylish biking experience in the urban landscape</p>
     </div>
@@ -148,13 +189,13 @@
     <p>Discover cutting-edge features and technology that propel your biking experience to new heights. From smart navigation to innovative safety enhancements, our bikes embrace the latest advancements for an unparalleled journey</p>
 
     <div class="allfiat">
-        <div class="feat01">
+        <div class="feat01" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="900">
                 <img src="/img/feat01.png" alt="bike">
                 <h1>Smart Cycling</h1>
                 <p>Embark on a journey where cutting-edge features and technology redefine your cycling experience. Our bikes integrate advanced sensors, smart navigation, and connectivity options, ensuring a seamless blend of innovation and performance</p>
         </div>
 
-        <div class="feat02">
+        <div class="feat02" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="900">
                 <h1>Engineering</h1>
                 <p> Dive into the world of high-tech cycling with our feature-packed bikes. From state-of-the-art gear systems to intelligent sensors, each element is meticulously crafted for precision, delivering a ride that's not just smooth but technologically advanced</p>
                 <img src="/img/feat02.png" alt="bike">
@@ -163,7 +204,7 @@
     </div>
 
     <!-- Navigational -->
-    <div class="navi">
+    <div class="navi" data-aos="fade-up" data-aos-duration="900">
         
         <h1>Navigational Brilliance</h1>
         <p>Experience seamless journeys with our advanced GPS technology. Accurate, real-time navigation ensures you never miss a turn, unlocking a new level of convenience and exploration on your rides</p>
@@ -175,48 +216,22 @@
         <h1>accessories</h1>
     </div>
 
-    <div class="access">
-        <div class="prod01">
-            <p>Clothing & Armour</p>
-            <i class="fa-solid fa-plus"></i>
-            <img src="/img/accesor01.png" alt="accessories">
-        </div>
-        <div class="prod-small">
-            <div class="prod02">
-                <p>Helmet</p>
-                <i class="fa-solid fa-plus"></i>
-                <img src="/img/hel v02.png" alt="accessories">
-            </div>
-            <div class="prod02">
-                <p>Lock</p>
-                <i class="fa-solid fa-plus"></i>
-                <img src="/img/lock 01.png" alt="accessories">
-            </div>
-            <div class="prod02 hid">
-                <p>Helmet</p>
-                <i class="fa-solid fa-plus"></i>
-                <img src="/img/hel v01.png" alt="accessories">
-            </div>
-            <div class="prod02 hid">
-                <p>Lock</p>
-                <i class="fa-solid fa-plus"></i>
-                <img src="/img/lock 02.png" alt="accessories">
-            </div>
-
-        </div>
+    <div class="access" data-aos="zoom-in-down" data-aos-easing="ease-in-sine" data-aos-duration="900">
+         
+ 
     </div>
 
     
 
     <div class="read">
-        <button>Read more</button>
+        <a href="#"><button>Read more</button></a>
     </div>
 
 </div>
 
 <!-- footer -->
 
-<div class="allfooter">
+<div class="allfooter" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="900">
     <div class="first-s">
         <div class="logo">
             <a href="#">Gear<span>Spin</span></a>
@@ -261,22 +276,31 @@
                 <a href="#">Instagram</a>
             </div>
             <div class="soc-footer">
-                <i class="fa-brands fa-instagram"></i>
-                <a href="#">Instagram</a>
-            </div>
-            <div class="soc-footer">
                 <i class="fa-brands fa-x-twitter"></i>
                 <a href="#">X-twitter</a>
             </div>
         </div>
     </div>
 
-
 </div>
+
+    <div class="bottom">
+        <div class="line1"></div>
+        <p>Copyright © 2023 All Rights Reserved by <a href="https://vyportfolio.com">VyPortfolio.com</a></p>
+    </div>
+
+
 
 
 
 
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        AOS.init({
+        once: true,
+    });
+      </script>
 </body>
 </html>

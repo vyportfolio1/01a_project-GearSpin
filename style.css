@@ -235,6 +235,13 @@ font-family: 'Oxanium', sans-serif;
     cursor: pointer;
 }
 
+
+.bike button::hover{
+    color: black;
+    background-color: white;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
 /* <!-- Trends --> */
 
 .trend{
@@ -678,6 +685,38 @@ font-family: 'Oxanium', sans-serif;
 body{
     overflow-x: hidden;
 }
+
+.meniu a:hover{
+    font-weight: 700;
+    transition: 0.5s;
+}
+.socials i{
+    padding: 3px;
+}
+
+.socials i:hover{
+    transform: translateY(-10px);
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.logo a:hover{
+    color: white;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+ 
+ .ht2 button:hover{
+    color: black;
+    background-color: white;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
+ .ht1 button:hover{
+    color: black;
+    background-color: white;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
+
 
 
 @media only screen and (min-width: 600px) {

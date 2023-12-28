@@ -152,14 +152,14 @@ let lastScrollTop = 0;
 window.addEventListener('scroll', () => {
   const scrollTop = window.scrollY;
 
-  // Check the scroll direction
+ 
   if (scrollTop > lastScrollTop) {
-    // Scrolling down
-    nav.style.top = '-100px'; // Adjust the value as needed
+  
+    nav.style.top = '-100px';  
     hamburgerMenu.style.opacity = '0';
     hamburgerMenu.style.transform = 'translateX(100%)';
   } else {
-    // Scrolling up
+  
     nav.style.top = '0';
     hamburgerMenu.style.opacity = '1';
     hamburgerMenu.style.transform = 'translateX(0)';
